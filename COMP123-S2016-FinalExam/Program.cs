@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/**
+ * Author Shahzaib Malik
+ * student number 300852792 
+ * Date 19 Aug 2016
+ */ 
 namespace COMP123_S2016_FinalExam
 {
     public static class Program

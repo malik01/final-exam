@@ -38,5 +38,20 @@ namespace COMP123_S2016_FinalExam
         {
             Application.Exit();
         }
+        //loads all the properties from the character class to the final form
+        private void FinalForm_Load(object sender, EventArgs e)
+        {
+            DexterityTextBox.Text = Program.character.Dexterity;
+            StrengthTextBox.Text = Program.character.Strength;
+            ConstitutionTextBox.Text = Program.character.Constitution;
+            IntelligenceTextBox.Text = Program.character.Intelligence;
+            WisdomTextBox.Text = Program.character.Wisdom;
+            CharismaTextBox.Text = Program.character.Charisma;
+            RaceTextBox.Text = Program.character.Race;
+            FirstNameTextbox.Text = Program.character.FirstName;
+            LastNameTextBox.Text = Program.character.LastName;
+            
+        }
+
     }
 }

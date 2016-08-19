@@ -7,6 +7,10 @@ namespace COMP123_S2016_FinalExam
 {
     public class Character
     {
+        public string LastName { get; set; }
+
+        public string FirstName { get; set; }
+
         public string Strength { get; set; }
 
         public string Dexterity { get; set; }
