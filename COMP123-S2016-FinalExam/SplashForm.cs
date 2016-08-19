@@ -12,9 +12,20 @@ namespace COMP123_S2016_FinalExam
 {
     public partial class SplashForm : Form
     {
+        public SplashForm splashForm = Program.splashscreen;
+        public GenerateNameForm generateForm = Program.generateNameScreen;
         public SplashForm()
         {
             InitializeComponent();
+        }
+
+        private void splashtimer_Tick(object sender, EventArgs e)
+        {
+
+            splashtimer.Enabled = false;
+            generateForm.Show();
+            this.Hide();
+            
         }
     }
 }
